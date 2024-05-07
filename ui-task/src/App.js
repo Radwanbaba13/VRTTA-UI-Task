@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import LoginPage from "./Pages/LoginPage.tsx";
-import HomePage from "./Pages/HomePage.tsx";
-import IntrafleetPage from "./Pages/IntrafleetPage.tsx";
-import NotFoundPage from "./Pages/NotFoundPage.tsx";
+import LoginPage from "./Pages/LoginPage";
+import HomePage from "./Pages/HomePage";
+import IntrafleetPage from "./Pages/IntrafleetPage";
+import NotFoundPage from "./Pages/NotFoundPage";
 
 const App = () => {
   return (
