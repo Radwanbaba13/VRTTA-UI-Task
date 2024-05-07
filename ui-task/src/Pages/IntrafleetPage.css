@@ -1,0 +1,116 @@
+.intrafleet-container1 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  height: 275px;
+}
+
+.intrafleet-container2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  height: 40vh;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.api-button{
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 125px;
+  display: block;
+  background-color: #406876;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s; 
+}
+
+.api-buttons:hover {
+  background-color: #253c44;
+}
+
+.date-form{
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.date-fields{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.date-label{
+  font-size: 20px;
+}
+.button-center{
+  display: flex;
+  justify-content: center;
+}
+
+.analyze-data-button{
+  align-items: center;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 20px;
+  width: 225px;
+  display: block;
+  background-color: #6eb240;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s; 
+}
+
+.date-input {
+  display: block;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 20px;
+  padding: 10px;
+  width: 200px;
+
+  font-size: 16px;
+}
+.statistics-image {
+  width: 25vw;
+}
+
+table{
+  width: 45%;
+  margin-left: 50px;
+}
+th{
+  background-color: #406876;
+  color: #fff;
+  text-align: left;
+  width: 16.67%;
+}
+
+.asset-title{
+  text-align: right;
+  font-size: 20px;
+  margin-top: 10px;
+}
