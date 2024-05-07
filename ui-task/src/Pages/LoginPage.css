@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; 
+
+}
+
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute; 
+    filter: blur(5px);
+    z-index: 0; 
+}
+
+.login-container {
+    z-index: 1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    background-color: #a3afb3; 
+}
+
+.header{
+    text-align: center;
+    font-weight: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.label{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    display: block;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.form{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+
+button {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 100%;
+    display: block;
+    background-color: #406876;
+    color: #fff;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: background-color 0.5s; 
+}
+
+button:hover {
+    background-color: #253c44;
+}
