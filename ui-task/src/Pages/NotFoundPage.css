@@ -1,0 +1,15 @@
+.notFoundContainer{
+    text-align: center;
+}
+
+.notFoundError{
+    font-size: 50px;
+    margin-top: 100px;
+    color: #333;
+}
+
+.notFoundText{
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
