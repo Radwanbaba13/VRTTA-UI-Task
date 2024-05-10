@@ -1,7 +1,5 @@
 ## VRTTA UI Task ##
 
-This repository contains the code for a UI task called VRTTA. The task likely involves creating a user interface for a specific project or application, although without further details, it's hard to say exactly what it entails.
-
 ### Running the Task with React: ###
 
 1. Clone the repository to your local machine.
